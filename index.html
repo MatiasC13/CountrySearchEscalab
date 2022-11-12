@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- JAVASCRIPT -->
+    <script src="assets/js/main.js" type="module"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+
+    <title>Country Search</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Country Search</h1>
+    </header>
+
+    <main>
+      <article class="first-article">
+        <!-- BUSCADOR -->
+        <section class="first-article__section">
+          <input
+            type="text"
+            name="country"
+            id="txtCountry"
+            placeholder="Search Country"
+          />
+            <img src="assets/img/lupa.svg" class="first-article__img" />
+        </section>
+
+        <section class="first-article__section">
+          <!-- FILTRO -->
+          <div class="filter">
+            Filter Regions
+            <ul id="btnFilter">
+              <li>Africa</li>
+              <li>America</li>
+              <li>Asia</li>
+              <li>Europe</li>
+              <li>Oceania</li>
+            </ul>
+          </div>
+          <!-- <label>Filter Regions</label>
+          <select name="region" id="slcRegion"> -->
+          <!-- <option value="">Seleccione Categoría</option> -->
+          <!-- <option value="af">Africa</option>
+            <option value="am">America</option>
+            <option value="as">Asia</option>
+            <option value="eu">Europe</option>
+            <option value="oc">Oceania</option>
+          </select> -->
+        </section>
+      </article>
+
+      <div id="container"></div>
+    </main>
+  </body>
+</html>
