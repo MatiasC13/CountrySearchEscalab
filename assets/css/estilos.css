@@ -129,7 +129,7 @@ input:-webkit-autofill:focus {
 .card__info {
   height: 22rem;
   padding: 1rem;
-  gap: 1rem;
+  gap: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -141,13 +141,13 @@ input:-webkit-autofill:focus {
 }
 
 .card__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--white);
   text-align: center;
 }
 
 .card__text {
-  text-align: justify;
+   font-weight: bold;
 }
 
 .card__link {

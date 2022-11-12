@@ -6,7 +6,9 @@ export const printCard = (country) => {
       <div class="card__info">
         <img onerror ="onErrorImage(this)"src="${country.flags.svg}" alt="${country.name.common}" class="card__img" />
         <h2 class="card__title">${country.name.common}</h2>
-        <p class="card__text">${country.name.official}</p>
+        <p><span class="card__text">Region: </span>${country.region}</p>
+        <p><span class="card__text">Capital: </span>${country.capital}</p>
+        <p><span class="card__text">Population: </span>${country.population}</p>
         <a href="${routes.detail}_name/${country.name.common}" class="card__link">
           View More
         </a>
